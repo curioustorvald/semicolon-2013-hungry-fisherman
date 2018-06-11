@@ -1,4 +1,4 @@
-Something I have made back in highschool, as a part of a team, in 2013.
+A realtime tower-defence game I have made back in highschool, as a team named "Semicolon", in 2013. 
 
 ## Dependency
 
