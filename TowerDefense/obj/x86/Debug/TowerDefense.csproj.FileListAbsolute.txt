@@ -1,0 +1,61 @@
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csprojResolveAssemblyReference.cache
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.towerdefense.resources
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.Properties.Resources.resources
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csproj.GenerateResource.Cache
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\bin\Debug\TowerDefense.pdb
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\bin\Debug\TDBase.dll
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+D:\Programing Circle\Works\Project\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+C:\Users\user\Desktop\v2010\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+C:\Users\user\Desktop\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+C:\Users\user\Desktop\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+D:\수형이\동아리\v2010\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+D:\수형이\동아리\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+D:\수형이\동아리\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+D:\수형이\동아리\v2010\TowerDefense\TowerDefense\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\수형이\동아리\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.TowerDefense.resources
+D:\수형이\동아리\v2010\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.Properties.Resources.resources
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\bin\Debug\TowerDefense.pdb
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\bin\Debug\TDBase.dll
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.TowerDefense.resources
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.Properties.Resources.resources
+\\vmware-host\Shared Folders\데스크탑\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csproj.GenerateResource.Cache
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csprojResolveAssemblyReference.cache
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.TowerDefense.resources
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.Properties.Resources.resources
+C:\Users\SKYHi14\Documents\Visual Studio 2012\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csproj.GenerateResource.Cache
+Z:\도큐멘트\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+Z:\도큐멘트\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+Z:\도큐멘트\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+Z:\도큐멘트\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.TowerDefense.resources
+Z:\도큐멘트\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.Properties.Resources.resources
+Z:\도큐멘트\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csproj.GenerateResource.Cache
+Z:\도큐멘트\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe
+Z:\도큐멘트\TowerDefense\TowerDefense\bin\Debug\TowerDefense.pdb
+Z:\도큐멘트\TowerDefense\TowerDefense\bin\Debug\TDBase.dll
+Z:\도큐멘트\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csprojResolveAssemblyReference.cache
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.pdb
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Debug\TowerDefense.pdb
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Debug\TDBase.dll
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csprojResolveAssemblyReference.cache
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.TowerDefense.resources
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.Properties.Resources.resources
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.csproj.GenerateResource.Cache
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.TrustInfo.xml
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.exe.manifest
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.manifest
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Debug\TowerDefense.application
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Debug\TowerDefense.application

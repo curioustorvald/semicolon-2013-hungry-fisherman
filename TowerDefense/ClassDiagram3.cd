@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="TowerDefense.Button" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAAAAAAgyAQAAAAAAAASAAQgAAAABiCIAEAAg=</HashCode>
+      <FileName>TD\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.ImageSprite">
+    <Position X="28.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QIAAAgAAJAAAAggAIBAAAECAgCAEwAAAAABgAEAAIEA=</HashCode>
+      <FileName>TD\ImageSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.SceneMain">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIIAEEAQACAAgkAAAAgAAAAAAICAEAAAAAAAAgCAQEA=</HashCode>
+      <FileName>TD\SceneMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.SceneLoading">
+    <Position X="3" Y="1.5" Width="2" />
+    <NestedTypes>
+      <Delegate Name="TowerDefense.SceneLoading.TT">
+        <TypeIdentifier>
+          <NewMemberFileName>TD\SceneLoading.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAACAAgkAAIggAAAAAAgAAEAAIAAACAAiAAAA=</HashCode>
+      <FileName>TD\SceneLoading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Entities.BaseEntity">
+    <Position X="22.25" Y="8" Width="2.75" />
+    <AssociationLine Name="spriteSheet" Type="TowerDefense.ImageSprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="11.568" Y="1.321" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAwAAEAABAAEgBAAgAEAAEQAAAABAAABQBQA0AAAAAA=</HashCode>
+      <FileName>Entities\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spriteSheet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TowerDefense.Mobs.BaseMob">
+    <Position X="14.75" Y="0.5" Width="2.25" />
+    <AssociationLine Name="spriteSheet" Type="TowerDefense.ImageSprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.995" Y="3.956" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IZQUAkkMBAAAACDAAIACgEwgRSAlWgCBAFADwAEBAYE=</HashCode>
+      <FileName>Mobs\BaseMob.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spriteSheet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TowerDefense.Towers.BaseTower">
+    <Position X="22.25" Y="0.5" Width="3.25" />
+    <AssociationLine Name="spriteSheet" Type="TowerDefense.ImageSprite">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.725" Y="0.02" Height="0.182" Width="0.982" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAwQAEAIBAAEABAARAEAAUwAICABAAAAGBoAyAgAgAA=</HashCode>
+      <FileName>Towers\BaseTower.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spriteSheet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TowerDefense.SceneGame">
+    <Position X="5.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAgkAAAAgAAAAMAAAAEAAAAAQAAECAAAA=</HashCode>
+      <FileName>TD\SceneGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TDBase.Scene" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TowerDefense.Stages.BaseStage">
+    <Position X="9.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AASQQAIAAEAAIAAAAQgKAAAgGAAIgEQAAhQAQAGDAkA=</HashCode>
+      <FileName>Stages\BaseStage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Stages.Map2" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAEAAAAQAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Stages\Map2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Player.Player" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgQAACAAAAAAAAAAAAAIAAAAAAEQAQCkBBAAAEAAMAA=</HashCode>
+      <FileName>TD\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Player.MenubarController" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAAAgAAAABgAAAEAAAAAAgABEAAAAAAAA=</HashCode>
+      <FileName>TD\MenubarController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Default1" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Default1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Default2" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Default2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Default3" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Default3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Default4" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Default4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Default5" Collapsed="true">
+    <Position X="17.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Default5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.FlyingFish" Collapsed="true">
+    <Position X="17.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\FlyingFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Jellyfish" Collapsed="true">
+    <Position X="17.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Jellyfish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Python" Collapsed="true">
+    <Position X="20" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Python.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Shark" Collapsed="true">
+    <Position X="20" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Shark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Skeleton" Collapsed="true">
+    <Position X="20" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Skeleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Tortoise" Collapsed="true">
+    <Position X="20" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Tortoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Whale" Collapsed="true">
+    <Position X="17.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Whale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Player.GameController" Collapsed="true">
+    <Position X="5.75" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAACBACAAAAAAAAAQRAAAAAAAAgCAKABAAAAAAAAA=</HashCode>
+      <FileName>TD\GameController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Path">
+    <Position X="0.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAgAAAAAACIAAAAAAAAAAACAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>TD\Path.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pvector" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TowerDefense.Vector" Collapsed="true">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAIAAQAAAAAIGAAAAAgAAAAAAAEAAAGAAYAA=</HashCode>
+      <FileName>TD\Vector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.AnglerFish" Collapsed="true">
+    <Position X="17.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\AnglerFish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Squid" Collapsed="true">
+    <Position X="20" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Squid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Mobs.Transparent" Collapsed="true">
+    <Position X="17.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mobs\Transparent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Towers.Bait" Collapsed="true">
+    <Position X="26.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAEIBAAAAACAAEAAAAAAIAAEAAAAABAAEAAAAAA=</HashCode>
+      <FileName>Towers\Bait.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Towers.Fishing" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAACAAQAAAAAAIAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Towers\Fishing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Towers.FishingNet" Collapsed="true">
+    <Position X="26.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAACAAgAAgAAAIAAAAAQAABAAEAAAAAA=</HashCode>
+      <FileName>Towers\FishingNet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Towers.Harpoon" Collapsed="true">
+    <Position X="26.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAABCAAAAAAAAAIAAAAAAAABAAMAAAQAA=</HashCode>
+      <FileName>Towers\Harpoon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TowerDefense.Towers.StoneThrower" Collapsed="true">
+    <Position X="26.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEgAIAAAAAACAAAAAAAAAMAAAAAAAABAAEAAAAAE=</HashCode>
+      <FileName>Towers\StoneThrower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

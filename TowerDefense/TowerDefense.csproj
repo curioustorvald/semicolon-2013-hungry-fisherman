@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9328CBA6-9AB2-476C-928D-2255D631831E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TowerDefense</RootNamespace>
+    <AssemblyName>TowerDefense</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>CA73E858BA58B0736FD77AB598ADCE94DEC884A1</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TowerDefense_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gameLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TDBase">
+      <HintPath>.\TDBase.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\FPSCounter.cs" />
+    <Compile Include="Classes\Resources.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\EntityBait.cs" />
+    <Compile Include="Entities\EntityHarpoon.cs" />
+    <Compile Include="Entities\EntityStone.cs" />
+    <Compile Include="Entities\EntityNet.cs" />
+    <Compile Include="Mobs\Default1.cs" />
+    <Compile Include="Mobs\Default2.cs" />
+    <Compile Include="Mobs\Default3.cs" />
+    <Compile Include="Mobs\Default4.cs" />
+    <Compile Include="Mobs\Default5.cs" />
+    <Compile Include="Mobs\FlyingFish.cs" />
+    <Compile Include="Mobs\Jellyfish.cs" />
+    <Compile Include="Mobs\Python.cs" />
+    <Compile Include="Mobs\Shark.cs" />
+    <Compile Include="Mobs\AnglerFish.cs" />
+    <Compile Include="Mobs\Squid.cs" />
+    <Compile Include="Mobs\Skeleton.cs" />
+    <Compile Include="Mobs\Transparent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mobs\Tortoise.cs" />
+    <Compile Include="Mobs\Whale.cs" />
+    <Compile Include="Stages\BaseStage.cs" />
+    <Compile Include="Stages\Map1.cs" />
+    <Compile Include="Stages\Map2.cs" />
+    <Compile Include="Stages\Map3.cs" />
+    <Compile Include="TD\Button.cs" />
+    <Compile Include="TD\GameController.cs" />
+    <Compile Include="TD\ImageSprite.cs" />
+    <Compile Include="TD\MenubarController.cs" />
+    <Compile Include="TD\Player.cs" />
+    <Compile Include="TD\SceneGameOverAndHighscore.cs" />
+    <Compile Include="TD\SceneMapSelect.cs" />
+    <Compile Include="TD\SceneSplash.cs" />
+    <Compile Include="TD\SceneStory.cs" />
+    <Compile Include="TD\TDException.cs" />
+    <Compile Include="Towers\Bait.cs" />
+    <Compile Include="Towers\BaseTower.cs" />
+    <Compile Include="Classes\NameSet.cs" />
+    <Compile Include="Classes\Resources_usingTDBaseGDI.cs" />
+    <Compile Include="Mobs\BaseMob.cs" />
+    <Compile Include="Mobs\TestMob.cs" />
+    <Compile Include="TD\Path.cs" />
+    <Compile Include="TowerDefense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TowerDefense.Designer.cs">
+      <DependentUpon>TowerDefense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TD\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TD\Button_usingTDBaseGDI.cs" />
+    <Compile Include="TD\SceneGame.cs" />
+    <Compile Include="TD\ImageSprite_usingTDBaseGDI.cs" />
+    <Compile Include="TD\Main.cs" />
+    <Compile Include="TD\SceneMain.cs" />
+    <Compile Include="TD\MouseClass.cs" />
+    <Compile Include="TD\SceneExample.cs" />
+    <Compile Include="TD\SceneLoading.cs" />
+    <Compile Include="TD\Vector.cs" />
+    <Compile Include="Towers\Fishing.cs" />
+    <Compile Include="Towers\FishingNet.cs" />
+    <Compile Include="Towers\Harpoon.cs" />
+    <Compile Include="Towers\StoneThrower.cs" />
+    <EmbeddedResource Include="TowerDefense.resx">
+      <DependentUpon>TowerDefense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TowerDefense_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gameLogo.ico" />
+    <Content Include="NewFolder1\logo.png" />
+    <Content Include="해야할 것.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\Mobs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="NewFolder1\logo.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="해야할 것.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

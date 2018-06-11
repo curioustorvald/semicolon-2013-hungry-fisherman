@@ -1,0 +1,14 @@
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Release\TowerDefense.exe.config
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Release\TowerDefense.exe.manifest
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Release\TowerDefense.application
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Release\TowerDefense.exe
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Release\TowerDefense.pdb
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\bin\Release\TDBase.dll
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.TowerDefense.resources
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.Properties.Resources.resources
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.csproj.GenerateResource.Cache
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.TrustInfo.xml
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.exe.manifest
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.application
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.exe
+Z:\minjaesong\Documents\TowerDefense\TowerDefense\obj\x86\Release\TowerDefense.pdb
